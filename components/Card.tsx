@@ -27,7 +27,7 @@ const Card = ({ vehicle }: Props) => {
       }}
     >
       <Image src={image} alt="car" height={30} width={50} />
-      <Typography variant="h4" sx={{ margin: "1.25rem" }}>
+      <Typography variant="h4" sx={{ padding: "1.25rem" }}>
         {title}
       </Typography>
       <Typography
